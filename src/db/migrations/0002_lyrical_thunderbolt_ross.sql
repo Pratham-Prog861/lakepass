@@ -1,0 +1,2 @@
+ALTER TABLE "marinas" ADD COLUMN "owner_id" uuid NOT NULL;--> statement-breakpoint
+ALTER TABLE "marinas" ADD CONSTRAINT "marinas_owner_id_users_id_fk" FOREIGN KEY ("owner_id") REFERENCES "public"."users"("id") ON DELETE cascade ON UPDATE no action;

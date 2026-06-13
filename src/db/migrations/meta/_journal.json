@@ -1,0 +1,27 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1781329221424,
+      "tag": "0000_absent_catseye",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1781329456281,
+      "tag": "0001_young_master_mold",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1781329682338,
+      "tag": "0002_lyrical_thunderbolt_ross",
+      "breakpoints": true
+    }
+  ]
+}
