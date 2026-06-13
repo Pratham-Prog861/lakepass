@@ -1,8 +1,9 @@
 allowBuilds:
-  '@clerk/shared': set this to true or false
-  esbuild: set this to true or false
+  esbuild: true
   sharp: true
   unrs-resolver: true
 ignoredBuiltDependencies:
   - sharp
   - unrs-resolver
+overrides:
+  zod: "^3.23.8"

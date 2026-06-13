@@ -59,9 +59,10 @@ export default function NewBoatPage() {
     setValue,
     watch,
     formState: { errors },
-  } = useForm({
+  } = useForm<FormValues>({
     resolver: zodResolver(createBoatSchema),
     defaultValues: {
+      marinaId: "",
       name: "",
       description: "",
       type: "speedboat",
